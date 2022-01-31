@@ -26,14 +26,24 @@
     margin: 1rem;
     font-size: 1.3rem;
     font-weight: 900;
-
 }
-
+.example-div {
+    box-shadow: rgb(0 0 0 / 2%) 0px 1px 3px 0px, rgb(27 31 35 / 15%) 0px 0px 0px 1px;
+    border-radius: 4px;
+    background-color: #F5F7F9;
+    min-height: 80px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
 .avatar {
     margin: 1rem;
     position: relative;
     display: inline;
-    
 }
 .avatar > img {
    border-radius: 50%;
@@ -41,11 +51,10 @@
 }
 .avatar-square {
     margin: 1rem;
-    display: inline;
+    display: inline-block;
 }
 .avatar-square > image {
    height: 2em;
-    
 }
 .avatar-xl > img {
     height: 4em;
@@ -59,12 +68,18 @@
 .avatar-sm > img {
     height: 1.5em;
 }
-.code-container {
-    padding: 0;
+.example-code {
+    height: max-content;
+    margin-bottom: 3rem;
 }
-.code-container > code {
-    border-radius: 1em;
-    padding: 0;
-    line-height: 1em;
-    padding-left: 0.5em;
+.hljs {
+    display: block;
+    overflow-x: auto;
+    font-size: 1rem;
+    padding: 0.5em;
+    color: #abb2bf;
+    background: #282c34;
+}
+.hljs {
+    border-radius: 4px;
 }

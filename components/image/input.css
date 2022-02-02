@@ -71,6 +71,30 @@ input[type=text] {
     outline: none;
     border-radius: 2px;
 }
+ .success label {
+    color: green;
+    font-size: 1rem;
+    font-weight: 500;
+ }
+ .input-group.success input {
+     border: 2px solid green;
+ }
+ .warning label {
+    color: #facc15;
+    font-size: 1rem;
+    font-weight: 500;
+ }
+ .input-group.warning input {
+     border: 2px solid #facc15;
+ }
+ .error label {
+    color: red;
+    font-size: 1rem;
+    font-weight: 500;
+ }
+ .input-group.error input {
+     border: 2px solid red;
+ }
 .radio label {
     display: flex;
     align-items: center;

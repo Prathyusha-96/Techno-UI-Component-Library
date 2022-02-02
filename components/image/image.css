@@ -49,12 +49,10 @@
     margin-bottom: 1.5rem;
     flex-wrap: wrap;
 }
-div {
-    display: block;
-}
+
 .rsp-img {
     width: 100%;
-    height: autoo;
+    height: auto;
     object-fit: cover;
 }
 .round-img {

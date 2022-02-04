@@ -133,14 +133,15 @@
 .ecomm .card-title {
     font-size: 1.2rem;
     font-weight: 500;
+    margin-bottom: 0.5rem;
 }
 .ecomm .card-price {
-    padding: 0 1rem;
+    padding:  1rem;
     font-size: 1rem;
 }
 .price-now {
     font-weight: 400;
-    padding-right: 5px;
+    padding-right: 7px;
 }
 .price-before {
     font-weight: 300;
@@ -156,11 +157,17 @@
     margin-left: 1rem;
 }
 .btn-primary {
-    background-color: #3b82f6;
+    background-color: #ec4899;
+    cursor: pointer;
     color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+.btn-primary:hover {
+    background-color: #ec4899;
 }
 .card-dismiss {
-    box-shadow: 0 0 2rem 0.5rem var(--COLOR-SLATE-300);
     flex-direction: column;
     max-width: 35rem;
     padding: 2rem;
@@ -176,7 +183,7 @@
      transition: all .2s ease-in-out;
 }
 .card-dismiss:hover {
-    background-color: lightsteelblue;
+    background-color: whitesmoke;
 }
  .overlay {
     position: relative;

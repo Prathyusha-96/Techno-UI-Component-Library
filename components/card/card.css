@@ -161,7 +161,9 @@
     cursor: pointer;
     color: white;
     padding: 0.5rem;
+    margin-bottom: 0.5rem;
     border-radius: 0.5rem;
+    border: none;
 
 }
 .btn-primary:hover {
@@ -189,4 +191,33 @@
     position: relative;
     bottom: 30px;
 }
- 
+@media screen and (max-width: 800px)
+.example-code {
+    display: none;
+}
+.example-code {
+    height: max-content;
+    margin-bottom: 1rem;
+}
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1rem;
+}
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #abb2bf;
+    background: #282c34;
+}
+.hljs {
+    border-radius: 4px;
+}
+.hljs-name {
+    color: #e06c75;
+}
+.hljs-attr {
+     color: #d19a66;
+}

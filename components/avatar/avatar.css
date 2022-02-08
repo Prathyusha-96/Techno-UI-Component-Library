@@ -3,6 +3,20 @@
     padding: 0;
     
 }
+.doc-content {
+    margin: auto;
+    width: 90%;
+    min-width: 0;
+    max-width: 800px;
+    flex: 1 1 0%;
+
+}
+.divider {
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 1px;
+    background-color: #dadadaf3;
+}
 .avatar-container {
     display: flex;
     flex-direction: column;
@@ -30,13 +44,14 @@
 .example-div {
     box-shadow: rgb(0 0 0 / 2%) 0px 1px 3px 0px, rgb(27 31 35 / 15%) 0px 0px 0px 1px;
     border-radius: 4px;
-    background-color: #F5F7F9;
+    background-color:#fee2e2;
     min-height: 80px;
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    margin: 1rem;
     margin-bottom: 1.5rem;
     flex-wrap: wrap;
 }
@@ -71,6 +86,18 @@
 .example-code {
     height: max-content;
     margin-bottom: 3rem;
+}
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1rem;
+}
+.hljs-name {
+    color: #e06c75;
+}
+.hljs-attr {
+     color: #d19a66;
 }
 .hljs {
     display: block;

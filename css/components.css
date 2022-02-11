@@ -7,6 +7,12 @@
 @import url('/components/card/card.css');
 @import url('/components/image/image.css');
 @import url('/components/input/input.css');
+@import url('/components/list/list.css');
+@import url('/components/toast/toast.css');
+@import url('/components/typography/typography.css');
+
+
+
 
 :root{  
     --primary-color : #6366F1;
@@ -25,8 +31,10 @@
     --off-white : #F6F9FC;
     --active-color :  #6366f1;
 }
-.doc-container{
-   font-family: 'Roboto', sans-serif;
+.doc-container {
+    color : #333333;
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     margin: 50px auto 0;
     display: flex;
@@ -51,8 +59,6 @@
 .content-subtitle{
     font-family: 'Nunito Sans', sans-serif;
     line-height: 27px;
-    color : #333333;
-    margin-bottom: 2rem;
     font-size: 1rem;
     font-weight: 400;
 }

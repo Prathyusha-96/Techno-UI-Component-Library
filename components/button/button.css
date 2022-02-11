@@ -6,7 +6,7 @@
     min-width: 100px;
     width: max-content;
     padding: 0.8rem 1rem;
-    border-radius: 1px;
+    border-radius: 0px;
     border: none;
     cursor: pointer;
     transition: all .3s ease-in-out;
@@ -49,10 +49,20 @@
     background-color: #e11d48;
 }
 .btn-toggle  {
-    font-size: large;
+    margin: 10px;
+    font-size: xx-large;
     border: none;
+    cursor: pointer;
+}
+.btn-toggle:hover {
+    background-color: white;
 }
 .btn-floating {
-    font-size: large;
+    font-size: xx-large;
+    margin: 10px;
     border: none;
+    cursor: pointer;
+}
+.btn-floating:hover {
+    background-color: white;
 }

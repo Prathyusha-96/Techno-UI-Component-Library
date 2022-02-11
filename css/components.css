@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-@import url('../components/avatar/avatar.css');
-@import url('../components/alert/alert.css');
-@import url('../components/badge/badge.css');
-@import url('../components/button/button.css');
-@import url('../components/card/card.css');
-@import url('../components/image/image.css');
-@import url('../components/input/input.css');
+@import url('/components/avatar/avatar.css');
+@import url('/components/alert/alert.css');
+@import url('/components/badge/badge.css');
+@import url('/components/button/button.css');
+@import url('/components/card/card.css');
+@import url('/components/image/image.css');
+@import url('/components/input/input.css');
 
 :root{  
     --primary-color : #6366F1;
@@ -20,21 +20,13 @@
     --secondary-hover: #E5E7EB;
     --danger-hover : #d31609 ;
     --success-hover: #0d8611;
-    --active-hover : #058ce0;
+    --active-hover : #6366f1;
 
     --off-white : #F6F9FC;
-    --active-color : #1EA7FD;
+    --active-color :  #6366f1;
 }
-
-.github-link{
-    cursor: pointer;
-    font-weight: 500;
-}
-
-
 .doc-container{
-    /* font-family: 'Nunito Sans', sans-serif; */
-    font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto', sans-serif;
     width: 100%;
     margin: 50px auto 0;
     display: flex;
@@ -71,13 +63,13 @@
 }
 
 .content-subtitle a:hover{
-    /* font-weight: 400; */
+    font-weight: 400;
     color : var(--primary-hover);
 }
 
 .type-2{
     margin-bottom: 0rem;
-}
+ } 
 
 .content-head{
     font-family: 'Nunito Sans', sans-serif;
@@ -90,7 +82,7 @@
 .example-div{
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     border-radius: 4px;
-    background-color: #F5F7F9;
+    background-color: #fee2e2;
     min-height: 100px;
     width: 100%;
     display: flex;
@@ -113,10 +105,6 @@
 .example-code{
     height: max-content;
     margin-bottom: 3rem;
-}
-
-.intro-code{
-    margin-bottom: 0;
 }
 
 .hljs{

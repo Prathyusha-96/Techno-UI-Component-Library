@@ -1,5 +1,5 @@
 .side-bar{
-    font-family: 'Roboto', sans-serif;
+    font-family:  sans-serif;
     flex: 0 0 240px;
     margin-right: 1rem;
     background-color: #fff;
@@ -14,28 +14,12 @@
 
 .list-topic a{
     text-decoration: none;
-    /* color : #666; */
     color: #000;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
-
-/* .list-subtopic{
-    padding: .4rem .9rem;
-    margin-bottom: 15px;
-    transition: all .3s ease-in-out;
-    font-size: 1rem;
-} */
-
-.list-subtopic .active{
-    font-weight: 700;
-    color : var(--active-color);
-}
-
 .list-subtopic li{
-    /* padding: 6px 0;
-    list-style: none; */
-    font-size: 13px;
+    font-size: 1rem;
     list-style: none;
     padding: .7rem 1.1rem;
     font-weight: 400;

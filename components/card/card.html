@@ -5,10 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card</title>
-    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css" integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ==" crossorigin="anonymous" />
     <script src="https://kit.fontawesome.com/76236e6232.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="container">
+        <nav>
+            <div class="left-nav">
+                <a href="../../index.html">Techno UI</a>
+               
+            </div>
+            <ul class="right-nav">
+                <li><a class="active" href="#">Docs</a></li>
+                
+            </ul>
+        </nav>
+        <div class="doc-container">
+            <div class="sidebar">
+        
+        <div>
+            <div class="list-topic">
+                <a href="/Components/Avatar/avatar.html">Components</a>
+            </div>
+            <ul class="list-subtopic">
+                <li>
+                    <a href="/components/avatar/avatar.html">
+                        Avatar
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/alert/alert.html">
+                        Alert
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/badge/badge.html">
+                        Badge
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/button/button.html">
+                        Button
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/card/card.html">
+                        Card
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/image/image.html">
+                        Image
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/input/input.html">
+                        Input
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
     <div class="doc-content">
         <div class="content-title">Card</div>
         <div class="content-subtitle">
@@ -31,22 +91,16 @@
     </div>
     <div class="example-code">
         <pre>
-         <code class="html hljs xml">
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card"</span>>
-    </span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-title"</span>><span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
-     </span>
-     <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-text"</span>>
-     
-     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-     ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    
-     <span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
-    <span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>    
-    </span>
-
-        </code>
+         <code class="html">
+      &lt;div class="card">
+      &lt;div class="card-title">Card Title&lt;/div>
+      &lt;div class="card-text">
+         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          &lt;/div>
+          &lt;/div>
+    </code>
     </pre>
     </div>
      <div class="divider"></div>
@@ -71,30 +125,23 @@
       </div>
       <div class="example-code">
         <pre>
-         <code class="html hljs xml">
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card"</span>>
-    </span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-head"</span>><span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
-     </span>
-     <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://picsum.photos/id/1011/300/300"</span> <span class="hljs-name">alt</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"avatar"</span>>  
-      
-     <span class="hljs-name">Jhon Deo</span>
-   
-     <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-image"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://picsum.photos/id/10/300/300"</span> <span class="hljs-name">alt</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-avatar"</span>>  
-     
-     <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-text"</span>>
-    
-     Visit ten places on our planet that are undergoing the biggest
-     changes today.
-     
-     <span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
-    <span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>    
-    </span>
+         <code class="html">
+            &lt;div class="card">
+                &lt;div class="card-head">
+               &lt;img src="https://picsum.photos/id/1011/300/300" alt class="avatar">
+               Jhon Deo
+               &lt;/div>
+               &lt;img class="card-image" src="https://picsum.photos/id/10/300/300" alt="card-pic">
+              &lt;div class="card-text">
+               Visit ten places on our planet that are undergoing the biggest
+               changes today.
+              &lt;/div>
+              &lt;/div>
+             &lt;/div>
      </code>
     </pre>
     </div>
-
-       <div class="divider"></div>
+   <div class="divider"></div>
     <!-- Cards with badges -->
     <div class="content-head">Card With Badge</div>
     <div class="content-subtitle">
@@ -121,45 +168,29 @@
     </div>
 <div class="example-code">
         <pre>
-         <code class="html hljs xml">
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card ecomm"</span>>
-    </span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"product-image"</span>>
-     </span>
-     <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/components/images/card.png"</span> <span class="hljs-name">alt</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-pic"</span>>  
-     
-     <span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
-     
-     <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-attr">"card-badge"</span>><span class="hljs-string">NEW</span><span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
+         <code class="html">
     
-     <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ico"</span>>
-     
-     <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"far fa-heart"</span>><span class="hljs-tag">&lt;/</span><span class="hljs-name">i</span>>  </span>
-      
-     <span class="hljs-tag">&lt;/</span><span class="hljs-name">button</span>>
-    
-     <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-title"</span>><span class="hljs-string">Men's Jacket</span><span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
- 
-     <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-price"</span>>
-       
-     <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"price-now"</span>><span class="hljs-string">Rs.350</span><span class="hljs-tag">&lt;/</span><span class="hljs-name">span</span>>
-    
-     <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"price-before"</span>><span class="hljs-string">Rs.899</span><span class="hljs-tag">&lt;/</span><span class="hljs-name">span</span>>
-
-     <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"discount"</span>><span class="hljs-string">(60% OFF)</span><span class="hljs-tag">&lt;/</span><span class="hljs-name">span</span>>
-
-     <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-primary"</span>><span class="hljs-string">ADD TO CART</span><span class="hljs-tag">&lt;/</span><span class="hljs-name">button</span>>
-    
-     <span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
-
-     <span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
-    
+            &lt;div class="card ecomm">
+                &lt;div class="product-image">
+                 &lt;img src="/components/images/card.png" alt="card-pic">
+                &lt;/div>
+                &lt;div class="card-badge">NEW&lt;/div>
+                &lt;button class="ico">
+                    &lt;i class="far fa-heart">&lt;/i>
+                &lt;/button>
+                &lt;div class="card-title">Men's Jacket&lt;/div>
+                &lt;div class="card-price">
+                    &lt;span class="price-now">Rs.350&lt;/span>
+                    &lt;span class="price-before">Rs.899&lt;/span>
+                    &lt;span class="discount">(60% OFF)&lt;/span>
+                &lt;/div>
+                &lt;button class="btn btn-primary">ADD TO CART&lt;/button>
+            &lt;/div>
+        &lt;/div>
     </code>
       </pre>
       </div>
-
-
-    <div class="divider"></div>
+ <div class="divider"></div>
     <!-- Card with dismiss -->
     <div class="content-head">Card With Dismiss</div>
     <div class="content-subtitle">
@@ -185,43 +216,27 @@
     </div>
     <div class="example-code">
         <pre>
-         <code class="html hljs xml">
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card ecomm"</span>>
-    </span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"product-image"</span>>
-     </span>
-     <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/components/images/card.png"</span> <span class="hljs-name">alt</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-pic"</span>>  
-     
-     <span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
-    
-     <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ico"</span>>
-     
-     <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fas fa-times"</span>><span class="hljs-tag">&lt;/</span><span class="hljs-name">i</span>>  </span>
-      
-     <span class="hljs-tag">&lt;/</span><span class="hljs-name">button</span>>
-    
-     <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-title"</span>><span class="hljs-string">Men's Jacket</span><span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
- 
-     <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-price"</span>>
-       
-     <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"price-now"</span>><span class="hljs-string">Rs.350</span><span class="hljs-tag">&lt;/</span><span class="hljs-name">span</span>>
-    
-     <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"price-before"</span>><span class="hljs-string">Rs.899</span><span class="hljs-tag">&lt;/</span><span class="hljs-name">span</span>>
-
-     <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"discount"</span>><span class="hljs-string">(60% OFF)</span><span class="hljs-tag">&lt;/</span><span class="hljs-name">span</span>>
-
-     <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-primary"</span>><span class="hljs-string">ADD TO CART</span><span class="hljs-tag">&lt;/</span><span class="hljs-name">button</span>>
-    
-     <span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
-
-     <span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
-    
+         <code class="html">
+            &lt;div class="card ecomm">
+            &lt;div class="product-image">
+             &lt;img src="/components/images/card.png" alt="card-pic">
+            &lt;/div>
+            &lt;button class="ico">
+                &lt;i class="far fa-times">&lt;/i>
+            &lt;/button>
+            &lt;div class="card-title">Men's Jacket&lt;/div>
+            &lt;div class="card-price">
+                &lt;span class="price-now">Rs.350&lt;/span>
+                &lt;span class="price-before">Rs.899&lt;/span>
+                &lt;span class="discount">(60% OFF)&lt;/span>
+            &lt;/div>
+            &lt;button class="btn btn-primary">ADD TO CART&lt;/button>
+        &lt;/div>
+    &lt;/div>
     </code>
       </pre>
       </div>
-
-
-    <div class="divider"></div>
+<div class="divider"></div>
     <!-- card with text overlay -->
     <div class="content-head">Card with Text Overlay</div>
     <div class="example-div">
@@ -241,34 +256,39 @@
  
  <div class="example-code">
     <pre>
-     <code class="html hljs xml">
-<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card ecomm"</span>>
-</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"product-image"</span>>
- </span>
- <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"/components/images/card.png"</span> <span class="hljs-name">alt</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-pic"</span>>  
- 
- <span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
-
- <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-title overlay"</span>><span class="hljs-string">Men's Jacket</span><span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
-
- <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-price"</span>>
-   
- <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"price-now"</span>><span class="hljs-string">Rs.350</span><span class="hljs-tag">&lt;/</span><span class="hljs-name">span</span>>
-
- <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"price-before"</span>><span class="hljs-string">Rs.899</span><span class="hljs-tag">&lt;/</span><span class="hljs-name">span</span>>
-
- <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"discount"</span>><span class="hljs-string">(60% OFF)</span><span class="hljs-tag">&lt;/</span><span class="hljs-name">span</span>>
-
- <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-primary"</span>><span class="hljs-string">ADD TO CART</span><span class="hljs-tag">&lt;/</span><span class="hljs-name">button</span>>
-
- <span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
-
- <span class="hljs-tag">&lt;/</span><span class="hljs-name">div</span>>
-
+     <code class="html">
+        &lt;div class="card ecomm">
+        &lt;div class="product-image">
+         &lt;img src="/components/images/card.png" alt="card-pic">
+        &lt;/div>
+        &lt;div class="card-title overlay">Men's Jacket&lt;/div>
+        &lt;div class="card-price">
+            &lt;span class="price-now">Rs.350&lt;/span>
+            &lt;span class="price-before">Rs.899&lt;/span>
+            &lt;span class="discount">(60% OFF)&lt;/span>
+        &lt;/div>
+        &lt;button class="btn btn-primary">ADD TO CART&lt;/button>
+    &lt;/div>
+&lt;/div>
 </code>
   </pre>
   </div>
+  <div class="divider"></div>
+
+    <footer>
+        <div class="prev-comp">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path></svg>
+            <a href="../button/button.html">Button</a>
+        </div>
+        <div class="next-comp">
+            <a href="../image/image.html">Image</a>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
+        </div>
+         </footer>
 </div>
+</div>
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>

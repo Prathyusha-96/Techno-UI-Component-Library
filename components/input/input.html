@@ -5,9 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>input</title>
-    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css" integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ==" crossorigin="anonymous" />
 </head>
 <body>
+    <div class="container">
+        <nav>
+            <div class="left-nav">
+                <a href="../../index.html">Techno UI</a>
+               
+            </div>
+            <ul class="right-nav">
+                <li><a class="active" href="#">Docs</a></li>
+                
+            </ul>
+        </nav>
+        <div class="doc-container">
+            <div class="sidebar">
+        
+        <div>
+            <div class="list-topic">
+                <a href="/Components/Avatar/avatar.html">Components</a>
+            </div>
+            <ul class="list-subtopic">
+                <li>
+                    <a href="/components/avatar/avatar.html">
+                        Avatar
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/alert/alert.html">
+                        Alert
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/badge/badge.html">
+                        Badge
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/button/button.html">
+                        Button
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/card/card.html">
+                        Card
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/image/image.html">
+                        Image
+                    </a>
+                </li>
+                <li>
+                    <a href="/components/input/input.html">
+                        Input
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
     <div class="doc-content">
         <div class="content-title">Inputs</div>
         <div class="content-subtitle">
@@ -36,7 +96,7 @@
             </div>
             <div class="example-code">
          <pre>
-         <code class="html hljs xml">
+         <code class="html">
           &lt;div class="input-group">&lt;label>Username*&lt;/label>
           &lt;input type="text"> &lt;/div>
           &lt;div class="input-group">&lt;label>Email-id*&lt;/label>
@@ -52,29 +112,29 @@
             "There are 3 types of inputs available apart from the default
             one <strong>error,warn,success.</strong>"
          </div>
-         <div class="example-div alert-box">
-            <div class="input-group success">
-                <label>Success</label>
-                <input type="text">
+         <div class="example-div">
+             <div class="input-box">
+             <label for="success">Success</label>
+                <input type="text" id="success" >
+            <label for="warning" >Warning</label>
+                <input type="text" id="warning">
+        
+                <label for="error">Error</label>
+                <input type="text" id="error">
             </div>
-            <div class="input-group warning">
-                <label>Warning</label>
-                <input type="text">
-            </div>
-            <div class="input-group error">
-                <label>Error</label>
-                <input type="text">
-            </div>
-            </div>
+           
+        </div>
             <div class="example-code">
                 <pre>
-                <code class="html hljs xml">
-                 &lt;div class="input-group success">&lt;label>Success&lt;/label>
-                 &lt;input type="text"> &lt;/div>
-                 &lt;div class="input-group warning">&lt;label>Warning&lt;/label>
-                 &lt;input type="text"> &lt;/div>
-                 &lt;div class="input-group error">&lt;label>Error&lt;/label>
-                 &lt;input type="text"> &lt;/div>
+                <code class="html">
+                 &lt;div class="input-box">
+                 &lt;label for="success">Success&lt;/label>
+                 &lt;input type="text" id="success"> 
+                 &lt;label for="warning">Warning&lt;/label>
+                 &lt;input type="text" id="warning"> 
+                 &lt;label for="error">Error&lt;/label>
+                 &lt;input type="text" id="error">
+                  &lt;/div>
                  </code>
                  </pre>
                 </div>
@@ -84,7 +144,7 @@
         <div class="content-subtitle">
            "Radio buttons allow the user to select one from a set"
         </div>
-        <div class="example-div alert-box">
+        <div class="example-div">
            <div class="radio">
             <label for="radio-1">
             <input id="radio-1" name="radio" type="radio" checked>
@@ -103,7 +163,7 @@
                 </div>
                 <div class="example-code">
                     <pre>
-                    <code class="html hljs xml">
+                    <code class="html">
                 &lt;div class="radio"> &lt;label for="radio-1">
                 &lt;input id="radio-1" name="radio" type="radio" checked >
                 Checked&lt;/label>
@@ -120,6 +180,20 @@
             </code>
             </pre>
             </div>
+            <footer>
+                <div class="prev-comp">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--grommet-icons" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path></svg>
+                    <a href="../image/image.html">Image</a>
+                </div>
+                <div class="next-comp">
+                    <a href="../input/input.html">Input</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path></svg>
+                </div>
+                 </footer>
         </div>
+        </div>
+        </div>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>

@@ -1,6 +1,9 @@
+
 main{
+   
     text-align: center;
     padding-top: 90px;
+   
 }
 
 main .head{
@@ -69,6 +72,7 @@ a {
     text-decoration: none;
     color: #71717a;
 }
+
 
 
 @media screen and (max-width : 800px){

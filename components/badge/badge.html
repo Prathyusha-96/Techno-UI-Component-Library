@@ -5,11 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>badge</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="/css/components.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/sidebar.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css" integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ==" crossorigin="anonymous" />
-     <script src="https://kit.fontawesome.com/76236e6232.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
+     integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ==" 
+     crossorigin="anonymous" />
+    
 </head>
 <body>
     <div class="container">
@@ -19,14 +26,26 @@
                
             </div>
             <ul class="right-nav">
+                <li><a href="../../index.html">Home</a></li>
                 <li><a class="active" href="#">Docs</a></li>
                 
             </ul>
         </nav>
+        <hr>
         <div class="doc-container">
             <div class="sidebar">
         
         <div>
+            <div class="list-topic">
+                <a href="/Getstarted/intorduction.html">Get Started</a>
+                </div>
+                <ul class="list-subtopic">
+                    <li>
+                        <a href="/Getstarted/intorduction.html">
+                            Introduction
+                        </a>
+                    </li>
+                    </ul>
             <div class="list-topic">
                 <a href="/Components/Avatar/avatar.html">Components</a>
             </div>
@@ -111,8 +130,8 @@
         </div>
     </div>
     <div class="example-code">
-    <pre>
-        <code class="html">
+    <pre class="intro-code">
+        <code class="html hljs xml">
         &lt;div class="badge">
         &lt;img class="avatar" src="https://picsum.photos/id/1011/500/500" alt="avatar-2">
         &lt;div class="online">&lt;/div>
@@ -136,24 +155,24 @@
     </div>
     <div class="example-div">
         <div class="badge">
-            <i class="fas fa-home"></i>
+            <i class="fa fa-home"></i>
             <div class="number">8</div>
         </div>
         <div class="badge">
-            <i class="fas fa-envelope"></i>
+            <i class="fa fa-envelope"></i>
             <div class="number">12</div>
         </div>
     </div>
     <div class="example-code">
-     <pre>
+     <pre class="intro-code">
     <code class="html">
         &lt;script src="https://kit.fontawesome.com/76236e6232.js" crossorigin="anonymous">&lt;/script>    
         &lt;div class="badge">
-        &lt;i class="fas fa-home">&lt;/i>
+        &lt;i class="fa fa-home">&lt;/i>
         &lt;div class="number">8&lt;/div>
         &lt;/div>
         &lt;div class="badge">
-        &lt;i class="fas fa-envelope">&lt;/i>
+        &lt;i class="fa fa-envelope">&lt;/i>
         &lt;div class="number">12&lt;/div>
         &lt;/div>
 

@@ -14,7 +14,8 @@
 
 
 
-:root{  
+:root{ 
+    --bg-color: #f8fafc; 
     --primary-color : #6366F1;
     --default-color : #172B4D;
     --secondary-color : #F3F4F6;
@@ -112,7 +113,9 @@
     height: max-content;
     margin-bottom: 3rem;
 }
-
+.intro-code{
+    margin-bottom: 0;
+}
 .hljs{
     border-radius: 4px;
 }

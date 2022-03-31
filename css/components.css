@@ -33,6 +33,7 @@
     --active-color :  #6366f1;
 }
 .doc-container {
+    background-color: var(--bg-color);
     color : #333333;
     margin-bottom: 2rem;
     font-family: 'Roboto', sans-serif;

@@ -8,21 +8,17 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 1rem;
     border-radius: 5px;
-    font-family: var(--font-family);
+    font-family: sans-serif;
   }
-
-  .navigation-heading {
+ .navigation-heading {
     font-size: 1.5rem;
     color: var(--text-color);
+    
   }
-
-
-
-  .navbar-menu {
+ .navbar-menu {
     display: flex;
     align-items: center;
   }
-
   .navbar-link,
   .navbar-social-link {
     list-style-type: none;
@@ -30,37 +26,32 @@
     font-size: 1rem;
     color: var(--text-color);
   }
-
-  .navbar-social-link {
+ .navbar-social-link {
     font-size: 1.3rem;
   }
-
   .navbar-link:hover,
   .navbar-social-link:hover {
     color: var(--black);
     cursor: pointer;
   }
-
-  .navbar-social {
+.navbar-social {
     display: flex;
   }
-
-  .navbar-search {
+.navbar-search {
     display: flex;
   }
-
-  .searchbar {
+.searchbar {
     width: 100%;
     border-width: 0;
     padding: 0.5rem;
     border-radius: 5px;
+    border: 1px solid var(--black);
     margin-right: 0.5rem;
   }
-
-  .navbar-btn {
+ .navbar-btn {
     padding: 0.3rem 1rem;
     border-radius: 5px;
     border-width: 0;
-    border: 1px solid var(--primary-color);
+    border: 1px solid var(--black); 
     font-weight: 600;
   }

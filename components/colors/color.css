@@ -1,0 +1,49 @@
+.color-palette {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.color-palette>div {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: var(--off-white);
+    padding: .5rem;
+    margin: .5rem;
+    font-size: .9rem;
+}
+
+.primary-color {
+    background-color: var(--primary-color);
+}
+
+.secondary-color {
+    background-color: var(--disabled-color);
+}
+
+.text-color {
+    background-color: var(--text-color);
+}
+
+.danger-color {
+    background-color: var(--danger-color);
+}
+
+.warning-color {
+    background-color: var(--warning-color);
+}
+
+.success-color {
+    background-color: var(--success-color);
+}
+
+.offgrey-color {
+    background-color: var(--off-grey);
+}
+
+.dark-theme {
+    background-color: var(--black);
+}

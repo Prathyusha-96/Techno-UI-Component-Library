@@ -2,13 +2,9 @@
 
 techno UI is a light-weight CSS library with pre-defined classes that helps create beautiful, responsive layouts using human-friendly HTML.
 
----
-
 ## Technologies Used -
 * HTML
 * CSS
-
----
 
 ## Quick Start
 
@@ -43,62 +39,60 @@ In order to use the components of Techno UI in your project, just copy paste the
 
 ## [Button](https://techno-ui-22.netlify.app/components/button/button)
 
-    - Primary Button
-    - Link Button
-    - Icon Button
-    - Floating Button
+   - Primary Button
+   - Link Button
+   - Icon Button
+   - Floating Button
 
 ## [Card](https://techno-ui-22.netlify.app/components/card/card)
 
-    - Text Only Card
-    - Card with badges
-    - Card with Textoverlay
-    - Dismiss Card
-    - Social media Card
+   - Text Only Card
+   - Card with badges
+   - Card with Textoverlay
+   - Dismiss Card
+   - Social media Card
     
 
 ## [Image](https://techno-ui-22.netlify.app/components/image/image)
 
-    - Responsive Image
-    - Circle Image
+   - Responsive Image
+   - Circle Image
 
 ## [Input](https://techno-ui-22.netlify.app/components/input/input)
 
-    - Basic Input
-    - Error Input
+   - Basic Input
+   - Error Input
 
 ## [List](https://techno-ui-22.netlify.app/components/list/list)
       
-      - Simple List
-      - Stacked List
+   - Simple List
+   - Stacked List
 
 ## [Navigation](https://techno-ui-22.netlify.app/components/Navigation/Navigation)
 
-    - Desktop Simple Navbar
-    - Navbar with social Icons
-    - Navbar with searchbox
+   - Desktop Simple Navbar
+   - Navbar with social Icons
+   - Navbar with searchbox
 
 ## [Typography](https://techno-ui-22.netlify.app/components/typography/typography)
     
-    - Heading
+   - Heading
 
 ## [Slider](https://techno-ui-22.netlify.app/components/slider/slider)
     
-    - Range Slider
+   - Range Slider
 
 ## [Grid](https://techno-ui-22.netlify.app/components/grid/grid)
     
-    - Two Column Grid
-    - Three Column Grid
-    - Four Column Grid
+   - Two Column Grid
+   - Three Column Grid
+   - Four Column Grid
 
 ## [Rating](https://techno-ui-22.netlify.app/components/rating/rating)
     
-    - Default Rating
+   - Default Rating
 
 ## [Modal](https://techno-ui-22.netlify.app/components/modal/modal)
-    
----
 
 ##  Connect with me!
 
